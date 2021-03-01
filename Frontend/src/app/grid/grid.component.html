@@ -1,0 +1,39 @@
+<div class="grid">
+
+  <h2>Game of Life</h2>
+
+  <mat-card>
+    <table>
+        <tr class="row" *ngFor="let row of grid">
+          <td class="col" *ngFor="let x of row">
+            <div class="if" *ngIf="x == '*'" class="black">{{x}}</div>
+            <div *ngIf="x != '*'" class="white">{{x}}</div>
+          </td>
+        </tr>
+    </table>
+  </mat-card>
+  
+  <button mat-raised-button color="primary" (click)=step()>
+    Step
+    <span class="material-icons">directions_walk</span>
+  </button>
+  <button class="play" mat-raised-button (click)=play()>
+    Play
+    <span class="material-icons">directions_run</span>
+  </button>
+  <button class="stop" mat-raised-button (click)=stop()>
+    Stop
+    <span class="material-icons">accessibility</span>
+  </button>
+
+  <div class="steps">
+    <span class="material-icons">bubble_chart</span>
+    Generation: {{steps}}
+  </div>
+
+</div>
+
+
+
+
+

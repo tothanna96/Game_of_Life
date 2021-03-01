@@ -1,0 +1,49 @@
+.grid {
+
+  text-align: center;
+
+  h2 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 2em;
+  }
+
+  .mat-card {
+    margin: 0 auto;
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  td {
+    width: 20px;
+  }
+
+  .black {
+    background-color: black;
+  }
+
+  .white {
+    background-color: white;
+  }
+  
+  button {
+    margin: 10px 0 0 5px;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .play {
+    background-color: rgb(33, 187, 33);
+  }
+
+  .stop {
+    background-color: rgb(219, 27, 27);
+  }
+
+  .steps {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+}
