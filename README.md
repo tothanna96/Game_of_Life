@@ -17,4 +17,4 @@
 
 # Game of Life működés közben:
 
-! [] (giphy game.gif)
+! [] (game.gif)
