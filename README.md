@@ -17,4 +17,4 @@
 
 # Game of Life működés közben:
 
-![]https://github.com/tothanna96/Game_of_Life/blob/master/game.gif
+https://github.com/tothanna96/Game_of_Life/blob/master/game.gif
