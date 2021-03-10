@@ -15,6 +15,3 @@
   és egy automata lejátszást megállító gomb (Stop).
 - Kijelzi, hogy hányadik generációnál járunk a kiinduló állapothoz képest. 
 
-# Game of Life működés közben:
-
-! [] (game.gif)
