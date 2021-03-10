@@ -15,3 +15,6 @@
   és egy automata lejátszást megállító gomb (Stop).
 - Kijelzi, hogy hányadik generációnál járunk a kiinduló állapothoz képest. 
 
+# Game of Life működés közben:
+
+![](https://github.com/tothanna96/Game_of_Life/edit/main/game.gif)
